@@ -18,11 +18,11 @@
 
 输入卫星图：
 
-![巴尔的摩卫星地图](examples/baltimore-input.png)
+![巴尔的摩卫星地图](examples/baltimore-input.jpg)
 
 生成效果：
 
-![巴尔的摩建筑分析展板](examples/baltimore-output.jpg)
+![巴尔的摩建筑分析展板](examples/baltimore-output.png)
 
 画面包含区位、建筑性质、建筑年代、楼层数量、
 道路系统和当地建筑拼贴。生成结果为分析示意。
