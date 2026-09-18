@@ -12,14 +12,26 @@
 - 根据地图轮廓与留白适应排版，保持输入画幅比例。
 - 数据不足时标注已核实样本与未知项，不假造全域调查。
 
-## 使用
+## 案例展示
 
-上传一张卫星地图，在支持本Skill的Codex中输入：
+### 巴尔的摩：卫星地图转建筑分析展板
 
-```text
-使用 $satellite-map-to-analysis-board，
-把上传的卫星图做成综合分析展板，保持原图比例。
-```
+输入卫星图：
+
+![巴尔的摩卫星地图](examples/baltimore-input.png)
+
+生成效果：
+
+![巴尔的摩建筑分析展板](examples/baltimore-output.jpg)
+
+画面包含区位、建筑性质、建筑年代、楼层数量、
+道路系统和当地建筑拼贴。生成结果为分析示意。
+
+## 如何使用
+
+上传一张卫星地图，然后在 Codex 中发送：
+
+> 请使用 $skill-installer 安装 https://github.com/AidMaster-Turing/satellite-map-to-analysis-board/tree/main/skills/satellite-map-to-analysis-board ，安装完成后读取并执行该 Skill，将我上传的卫星地图生成完整建筑分析展板，保持原图比例，直接交付图片。
 
 只要提示词：
 
@@ -27,7 +39,11 @@
 使用 $satellite-map-to-analysis-board，只给我可复制的通用提示词，不生成图片。
 ```
 
-可以补充城市、范围、语言、重点专题和建筑照片。默认沿用用户语言，不固定某座城市或横竖画幅。
+不想用skill，可使用用AidMaster图灵网站调用GPT images 2.5或GPT image 2.0生成，提示词和案例图已上传画廊，可直接生成同款，替换卫星底图即可
+
+[AidMaster图灵使用网址](https://turneo.aidmaster.cn/home)
+
+也可自行补充城市、范围、语言、重点专题和建筑照片。默认沿用用户语言，不固定某座城市或横竖画幅。
 
 ## 安装
 
