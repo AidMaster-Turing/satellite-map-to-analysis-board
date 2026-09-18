@@ -1,0 +1,4 @@
+interface:
+  display_name: "卫星地图分析展板"
+  short_description: "将一张卫星地图转为灰棕色建筑分析展板，平衡完整信息与当地建筑拼贴"
+  default_prompt: "使用 $satellite-map-to-analysis-board 将我上传的卫星图转为完整分析展板，保持原图比例，并加入当地建筑拼贴。"
