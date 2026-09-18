@@ -1,5 +1,6 @@
 ---
 name: satellite-map-to-analysis-board
+license: MIT
 description: 将单张卫星地图转为暖白、灰棕、炭黑与暗酒红配色的建筑学 mapping 分析展板，兼顾区位、建筑用途、年代、层数、交通和当地建筑影像拼贴。用于城市分析图生成、同风格地图转换、通用提示词与展板修订；不用于导航、普通地图查询或精确测绘。
 ---
 

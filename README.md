@@ -82,4 +82,4 @@ python skills/satellite-map-to-analysis-board/scripts/check_image_ratio.py input
 
 [GitHub发布教程](docs/PUBLISH.zh-CN.md) · [验收场景](docs/ACCEPTANCE.md) · [独立提示词](skills/satellite-map-to-analysis-board/references/prompt-template.md)
 
-版本0.1.0。尚未指定开源许可证，发布者可按分享意愿添加；第三方素材不随Skill文本自动获得授权。
+版本0.1.0。原创指令、提示词和辅助脚本采用 [MIT许可证](LICENSE)，版权署名为2026 AidMaster-Turing。Skill目录也附有LICENSE.txt，便于单独安装时保留许可证。第三方地图、照片和其他外部素材仍遵循各自的授权，不因本仓库使用MIT而改变。

@@ -7,7 +7,7 @@
 1. 解压仓库ZIP，打开最外层satellite-map-to-analysis-board文件夹，看到README.md、VERSION、docs和skills。
 2. 登录GitHub，打开 https://github.com/new 。
 3. Repository name填satellite-map-to-analysis-board；Description可填“将单张卫星地图转为兼顾完整分析与当地建筑拼贴的灰棕色mapping展板”。
-4. 公开分享选Public；个人使用选Private。已有README和.gitignore，不必创建重复文件。许可证由你按分享意愿选择，本包未替你指定。
+4. 公开分享选Public；个人使用选Private。已有README、.gitignore和MIT许可证，不必在创建仓库时生成重复文件。
 5. 点击Create repository。
 6. 空仓库Quick setup中点击uploading an existing file；已有文件的仓库使用Add file → Upload files。
 7. 把解压目录里面的文件和子文件夹拖入，保持docs和skills层级。不要只上传ZIP，不要多套一层最外层目录。
